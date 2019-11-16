@@ -1,0 +1,59 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>Plantilla: PALTA</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 1.23.1" />
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+	<link rel="stylesheet" href="palta.css">
+</head>
+
+<body>
+	
+<div class="wrap">
+	<nav class="bar">
+		<a href="home_palta.html">Inicio</a>
+		<a href="palta.html">Galería</a>
+		<a href="#">Contactos</a>
+		</nav>
+	<h3 id="gallery"></h3>
+	<h3>Galería de Imágenes</h3>
+		<div class="thgallery">
+			<ul class="lista">
+			<li><img class="thumb" id="pic"   alt="Palta" onclick="myFunction(this);"src="palta_01.jpg"></img></li>
+			<li><img class="thumb" id="pic2"  alt="Avocado" onclick="myFunction(this);"src="palta_02.jpeg"></img></li>
+			<li><img class="thumb" id="pic3"  alt="Aguacate" onclick="myFunction(this);"src="palta_03.jpeg"></img></li>
+			<li><img class="thumb" id="pic4"  alt="Hass" onclick="myFunction(this);"src="palta_04.jpeg"></img></li>
+			<li><img class="thumb" id="pic5"  alt="Guacamole" onclick="myFunction(this);"src="palta_05.jpeg"></img></li>
+			</ul>
+		</div>
+
+
+<div class="cuadrado">
+	<div class="foot">Clickee Sobre Cualquier Imagen Para Agrandarla</div>
+	
+<div class="container">
+	<!-- Close the image -->
+<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+<!-- Expanded image -->
+<img id="expandedImg" width="100%">
+<!-- Image text -->
+<div id="imgtext"></div>
+</div>
+
+</div>
+<footer>
+	<a href="#">Más Información</a>
+	</footer>
+	<p>Desarrollado por Ángel Lucero</p>
+</div>
+<script src="gal.js"></script>
+</body>
+
+
+
+</html>

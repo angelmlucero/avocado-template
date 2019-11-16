@@ -1,0 +1,166 @@
+body {
+background: linear-gradient(to right, #FAFFB4, #E0FFB4);
+font-family: Purisa, Comic Sans;
+}
+
+h3 {
+text-align: left;
+margin-left:25%;
+font-size:36px;
+text-shadow: 3px 3px 5px #8B6914;
+}
+
+.thumb{
+width: 100px;
+margin:0px;
+padding:auto;
+
+}
+
+.thgallery {
+display:inline-block;
+max-width:1000px;
+padding:0% 8% 0%;
+margin-left:10%;
+margin-right:10%;
+width:70%;
+}
+
+.wrap{
+
+width: 100%;
+margin:auto;
+padding:auto;
+overflow:hidden;
+}
+
+.cuadrado{
+width:60%;
+height:40%;
+margin-left:10%;
+margin-right:10%;
+padding:0% 10% 0%;
+}
+
+ 
+
+.lista li {
+width:100px;
+display:inline-block;
+list-style:none;
+margin:auto;
+padding:auto;
+
+
+}
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+position: relative;
+display: none;
+height:40%;
+}
+/* Expanding image text */
+#imgtext {
+position: absolute;
+bottom: 15px;
+left: 15px;
+color: white;
+font-size: 20px;
+}
+/* Closable button inside the image */
+.closebtn {
+position: absolute;
+top: 10px;
+right: 15px;
+color: white;
+font-size: 35px;
+cursor: pointer;
+}
+
+img:hover{
+cursor:pointer;
+
+}
+
+.foot{
+font-size:14px;
+text-align:center;
+border-top:3px solid #000;
+clear:both;
+}
+
+.menu {
+
+background:rgb(255,165,0,0.5);
+border-radius:15px;
+padding:2%;
+width:20%;
+float:right;
+box-shadow: 3px 3px 5px #8B6914;
+
+}
+
+article {
+width:50%;
+float:left;
+position:relative;
+display:inline-block;
+}
+
+ 
+ .responsiveLink{
+ display:none;}
+
+
+footer {
+  background-image:url("drawing.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color:#90EE90;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  height: 5%;
+  color: #4D4D4D;
+ }
+
+footer a{
+  color: #4D4D4D;
+  font-size: 20px;
+  text-decoration:none;
+
+}
+span{
+margin-left:45%;
+text-align:center;
+font-size:10px;
+color:#4D4D4D;
+clear:both;
+}
+
+@media screen and (max-width: 450px){
+	.cuadrado{
+	display: none;
+	border: none;
+}
+	.relleno {
+	display:none;
+	}
+	h3{
+	font-size: 15px;
+	}
+	.menu{
+
+	display:none;
+	}
+	embed, footer, span, hr{
+	display:none;
+	}
+	article {
+	width:100%}
+	
+	.responsiveLink{
+	display:inline-block;
+	}
+
+}
